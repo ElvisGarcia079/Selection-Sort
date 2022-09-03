@@ -16,8 +16,11 @@ function selectionSort(arr){
         if(min != i){
             // Swap the values if the minimum value has changed
             let temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
+            arr[i] = arr[min];
+            arr[min] = temp;
         }
     }
 }
+
+let list = [3, 2, 1, 5, 45, 32, 654, 234, 6543, 24];
+console.log(selectionSort(list));
