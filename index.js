@@ -7,12 +7,17 @@ function selectionSort(arr){
         for(let j = i + 1; j < arr.length; j++){
             // Check if any value is less than the value at i
             if(arr[i] > arr[j]){
+                // Set min to j
                 min = j;
             }
         }
 
+        // Check if the minimum value has changed
         if(min != i){
-
+            // Swap the values if the minimum value has changed
+            let temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
         }
     }
 }
