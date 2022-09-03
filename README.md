@@ -48,8 +48,8 @@ the rest of the items in the array. (Start at 1 more than index of the first loo
 7. If the minumum value has changed, that means that there is a smaller value somewhere ahead in the list, so we will perform a **swap operation**.
 
         let temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+        arr[i] = arr[min];
+        arr[min] = temp;
 8. Finally, you can now exit your **for loops**, at this point, your list/array is sorted. You can return the same list you were originally given and it'll be sorted. 
 
         return arr;
