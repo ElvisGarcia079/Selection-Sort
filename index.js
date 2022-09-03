@@ -10,5 +10,9 @@ function selectionSort(arr){
                 min = j;
             }
         }
+
+        if(min != i){
+
+        }
     }
 }
