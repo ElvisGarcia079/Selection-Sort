@@ -20,6 +20,8 @@ function selectionSort(arr){
             arr[min] = temp;
         }
     }
+
+    return arr;
 }
 
 let list = [3, 2, 1, 5, 45, 32, 654, 234, 6543, 24];
