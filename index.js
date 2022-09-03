@@ -1,9 +1,6 @@
-/*
-    This algorithm has a quadratic runtime or O(n^2)
-    This algorithm is very general but not the preffered or fasted
-    This algoruthm still gets the job done
-*/
-
 function selectionSort(arr){
-    
+    // First Loop to Iterate through the Array
+    for(let i = 0; i < arr.length; i++){
+
+    }
 }
