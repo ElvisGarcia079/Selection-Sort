@@ -7,7 +7,7 @@ function selectionSort(arr){
         for(let j = i + 1; j < arr.length; j++){
             // Check if any value is less than the value at i
             if(arr[i] > arr[j]){
-                
+                min = j;
             }
         }
     }
